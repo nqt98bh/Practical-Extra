@@ -1,0 +1,14 @@
+D:\Coding\Practice extra\extra\extra\bin\Debug\net8.0\extra.exe
+D:\Coding\Practice extra\extra\extra\bin\Debug\net8.0\extra.deps.json
+D:\Coding\Practice extra\extra\extra\bin\Debug\net8.0\extra.runtimeconfig.json
+D:\Coding\Practice extra\extra\extra\bin\Debug\net8.0\extra.dll
+D:\Coding\Practice extra\extra\extra\bin\Debug\net8.0\extra.pdb
+D:\Coding\Practice extra\extra\extra\obj\Debug\net8.0\extra.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding\Practice extra\extra\extra\obj\Debug\net8.0\extra.AssemblyInfoInputs.cache
+D:\Coding\Practice extra\extra\extra\obj\Debug\net8.0\extra.AssemblyInfo.cs
+D:\Coding\Practice extra\extra\extra\obj\Debug\net8.0\extra.csproj.CoreCompileInputs.cache
+D:\Coding\Practice extra\extra\extra\obj\Debug\net8.0\extra.dll
+D:\Coding\Practice extra\extra\extra\obj\Debug\net8.0\refint\extra.dll
+D:\Coding\Practice extra\extra\extra\obj\Debug\net8.0\extra.pdb
+D:\Coding\Practice extra\extra\extra\obj\Debug\net8.0\extra.genruntimeconfig.cache
+D:\Coding\Practice extra\extra\extra\obj\Debug\net8.0\ref\extra.dll
