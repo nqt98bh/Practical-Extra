@@ -311,14 +311,112 @@ class DatandTime
 
     }
 
+    //public static void Main()
+    //{
+    //    //Part1();
+    //    Part2();
+    //    Part3();
+    //    Part4();
+    //    Part5();
+    //    Part6();
+    //    Part7();
+    //}
+}
+
+/// TRY Catch/
+class TryCatch
+{
+    static void Part1()
+    {
+        try
+        {
+            int number1 = 10;
+            int number2 = 0;
+            int result = number1 / number2;
+        }
+        catch (DivideByZeroException ex)
+        {
+            Console.WriteLine("Error: "+ex.Message);
+        }
+
+    }
+    static void Part2()
+    {
+        try
+        {
+            string name = "thang";
+            int convertToInt = int.Parse(name);
+        }
+        catch(Exception ex) 
+        {
+            Console.WriteLine("Error: " + ex.Message);
+        }
+       
+    }
+    static void Part3()
+    {
+        string filePath = "non_exist_file";
+        try
+        {
+            using(StreamReader sr = new StreamReader(filePath))
+            {
+                string content = sr.ReadToEnd();
+                Console.WriteLine(sr);
+            }
+        }
+        catch(FileNotFoundException ex) 
+        {
+            Console.WriteLine(ex.Message);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("An unexpected error: "+ex.Message);
+        }
+    }
+    static void Part4()
+    {
+        try
+        {
+        int input = int.Parse(Console.ReadLine());
+
+        }
+        catch(FormatException ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+    }
+    static void Part5()
+    {
+        try
+        {
+            int a = int.Parse(Console.ReadLine());
+            int b = int.Parse(Console.ReadLine());
+            int c = a / b;
+        }
+        catch(FormatException ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+        catch(DivideByZeroException ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+    }
     public static void Main()
     {
-        //    //Part1();
-        Part2();
-        //    Part3();
-        //    Part4();
-        //    Part5();
-        //Part6();
-        //Part7();
+        //Part1();
+        //Part2();
+        //Part3();
+        //Part4();
+        Part5();
     }
 }

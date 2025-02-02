@@ -12,3 +12,4 @@ D:\Coding\Practice extra\extra\extra\obj\Debug\net8.0\refint\extra.dll
 D:\Coding\Practice extra\extra\extra\obj\Debug\net8.0\extra.pdb
 D:\Coding\Practice extra\extra\extra\obj\Debug\net8.0\extra.genruntimeconfig.cache
 D:\Coding\Practice extra\extra\extra\obj\Debug\net8.0\ref\extra.dll
+D:\Coding\Practice extra\extra\extra\obj\Debug\net8.0\extra.sourcelink.json
