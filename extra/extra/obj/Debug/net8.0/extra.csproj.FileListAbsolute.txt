@@ -13,3 +13,19 @@ D:\Coding\Practice extra\extra\extra\obj\Debug\net8.0\extra.pdb
 D:\Coding\Practice extra\extra\extra\obj\Debug\net8.0\extra.genruntimeconfig.cache
 D:\Coding\Practice extra\extra\extra\obj\Debug\net8.0\ref\extra.dll
 D:\Coding\Practice extra\extra\extra\obj\Debug\net8.0\extra.sourcelink.json
+C:\Unitylearn\repos\Practical-Extra\extra\extra\obj\Debug\net8.0\extra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Unitylearn\repos\Practical-Extra\extra\extra\obj\Debug\net8.0\extra.AssemblyInfoInputs.cache
+C:\Unitylearn\repos\Practical-Extra\extra\extra\obj\Debug\net8.0\extra.AssemblyInfo.cs
+C:\Unitylearn\repos\Practical-Extra\extra\extra\obj\Debug\net8.0\extra.csproj.CoreCompileInputs.cache
+C:\Unitylearn\repos\Practical-Extra\extra\extra\obj\Debug\net8.0\extra.sourcelink.json
+C:\Unitylearn\repos\Practical-Extra\extra\extra\obj\Debug\net8.0\extra.dll
+C:\Unitylearn\repos\Practical-Extra\extra\extra\obj\Debug\net8.0\refint\extra.dll
+C:\Unitylearn\repos\Practical-Extra\extra\extra\obj\Debug\net8.0\extra.pdb
+C:\Unitylearn\repos\Practical-Extra\extra\extra\bin\Debug\net8.0\extra.exe
+C:\Unitylearn\repos\Practical-Extra\extra\extra\bin\Debug\net8.0\extra.deps.json
+C:\Unitylearn\repos\Practical-Extra\extra\extra\bin\Debug\net8.0\extra.runtimeconfig.json
+C:\Unitylearn\repos\Practical-Extra\extra\extra\bin\Debug\net8.0\extra.dll
+C:\Unitylearn\repos\Practical-Extra\extra\extra\bin\Debug\net8.0\extra.pdb
+C:\Unitylearn\repos\Practical-Extra\extra\extra\obj\Debug\net8.0\extra.genruntimeconfig.cache
+C:\Unitylearn\repos\Practical-Extra\extra\extra\obj\Debug\net8.0\ref\extra.dll
+C:\Unitylearn\repos\Practical-Extra\extra\extra\bin\Debug\net8.0\PhoneDirectory.csv

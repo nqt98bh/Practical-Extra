@@ -372,6 +372,7 @@ class TryCatch
         {
             Console.WriteLine("An unexpected error: "+ex.Message);
         }
+        
     }
     static void Part4()
     {
@@ -411,12 +412,227 @@ class TryCatch
             Console.WriteLine(ex.Message);
         }
     }
+    static void Part6()
+    {
+        try
+        {
+            int number1 = int.Parse(Console.ReadLine());
+            int number2 = int.Parse(Console.ReadLine());
+            int number3 = number1 / number2;
+        }
+        catch (FormatException ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+        catch (DivideByZeroException ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+    }
+
+    static void Part7()
+    {
+        try
+        {
+
+            int number1 = int.Parse(Console.ReadLine());
+
+        }
+        catch (FormatException ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+
+    }
+    static void Part8()
+    {
+        try
+        {
+            int number1 = int.Parse(Console.ReadLine());
+            int number2 = int.Parse(Console.ReadLine());
+            int number3 = number1 / number2;
+        }
+        catch (DivideByZeroException ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+    }
+    static void Part9()
+    {
+        string input = null;
+        try
+        {
+
+            string uppercase = input.ToUpper();
+        }
+        catch (NullReferenceException ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+        
+    }
+    static void MyTelephoneDirectory()
+    {
+        string filePath = @"C:\Unitylearn\repos\Practical-Extra\extra\extra\PhoneDirectory.csv";
+        int recordCount = 0;
+        string inputName, inputPhoneNumber;
+        if (!File.Exists(filePath))
+        {
+            using (StreamWriter sw = new StreamWriter(filePath))
+            {
+                sw.WriteLine("Name,Phone Number");
+            }
+        }
+        do
+        {
+            Console.Write("Enter name (or 'Exit' to quit): ");
+            inputName = Console.ReadLine();
+            if (inputName.ToLower() == "exit")
+                break;
+
+            Console.Write("Enter phone number: ");
+            inputPhoneNumber = Console.ReadLine();
+            using (StreamWriter sw = File.AppendText(filePath))
+            {
+                sw.WriteLine($"{inputName},{inputPhoneNumber}");
+            }
+
+            recordCount++;
+        }
+        while (true);
+        Console.WriteLine($"Number of records appended: {recordCount}");
+
+    }
+    static void LibraryLoan()
+    {
+        string inputFile = @"C:\Unitylearn\repos\Practical-Extra\extra\extra\loaninfo.csv";
+        string outputFile = @"C:\Unitylearn\repos\Practical-Extra\extra\extra\overdueinfo.csv";
+        try
+        {
+            string[] lines = File.ReadAllLines(inputFile);
+            using(StreamWriter sw = new StreamWriter(outputFile))
+            {
+                Console.WriteLine("{0,-10} {1,-12} {2,-14} {3,-14} {4,-12} {5,-13} {6,-8}", "Book ID", "Borrower ID", "Date Borrowed", "Date Returned", "Days Loaned", "Days Overdue", "Fine");
+                sw.WriteLine("Book ID, Borrower ID, Days Overdue, Fine");
+                for(int i = 1;  i < lines.Length; i++)
+                {
+                    string[] parts = lines[i].Split(',');
+                    string bookID = parts[0];
+                    string borrowerID = parts[1];
+                    DateTime dateBorrowed = DateTime.ParseExact(parts[2], "yyyy-MM-dd", CultureInfo.InvariantCulture);
+                    DateTime dateReturned = DateTime.ParseExact(parts[3], "yyyy-MM-dd", CultureInfo.InvariantCulture);
+                    int daysLoaned = (int)(dateReturned - dateBorrowed).TotalDays;
+                    // Calculate days overdue and fine
+                    int daysOverdue = Math.Max(daysLoaned - 14, 0);
+                    double fine = daysOverdue * 0.5;
+                    // Write data to console
+                    Console.WriteLine($"{bookID,-10} {borrowerID,-12} {dateBorrowed,-14:yyyy-MM-dd} {dateReturned,-14:yyyy-MM-dd} {daysLoaned,-12} {daysOverdue,-13} ${fine,-8:F2}");
+                    // Write data to output file if overdue
+                    if (daysOverdue > 0)
+                    {
+                        sw.WriteLine($"{bookID}, {borrowerID}, {daysOverdue}, ${fine:F2}");
+                    }
+                }
+            }
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine($"An error occurred: {e.Message}");
+        }
+    }
+
     public static void Main()
     {
-        //Part1();
-        //Part2();
-        //Part3();
-        //Part4();
-        Part5();
+        //    Part1();
+        //    Part2();
+        //    Part3();
+        //    Part4();
+        //    Part5();
+        //    Part6();
+        //    Part7();
+        //    Part8();
+        //    Part9();
+        //MyTelephoneDirectory();
+        LibraryLoan();
     }
+
+}
+
+//Math//
+class Math1
+{
+    
+    static void Part5()
+    {
+        int a = 10;
+        int b = 5;
+        int c = Math.Min(a, b);
+        Console.WriteLine("The minimum of 5 and 10 is " + c);
+    }
+
+    static void Part6()
+    {
+        int a = 15;
+        int b = 8;
+        int c = Math.Max(a, b);
+        Console.WriteLine("The maximum of 15 and 8 is " + c);
+    }
+    static void Part7()
+    {
+        int a = 144;
+        int b = (int)Math.Sqrt(a);
+        Console.WriteLine("The square root of 144 is " + b);
+    }
+    static void Part8()
+    {
+        int a = Math.Abs(-5);
+        Console.WriteLine("The absolute value of -5 is " + a);
+    }
+    static void Part9()
+    {
+        double a = Math.Pow(2, 5);
+        Console.WriteLine("2 raised to the power of 5 is " + a);
+    }
+    static void Part10()
+    {
+        double a = Math.Round(4.6);
+        Console.WriteLine("4.6 rounded to the nearest integer is " + a);
+    }
+    static void Part11()
+    {
+        double a = Math.Ceiling(3.14);
+        Console.WriteLine("The smallest integer greater than or equal to 3.14 is " + a);
+    }
+    static void Part12()
+    {
+        double a = Math.Exp(2);
+        Console.WriteLine("e raised to the power of 2 is " + a);
+    }
+    static void Part13()
+    {
+        double a = Math.Log(100);
+        Console.WriteLine("The natural logarithm of 100 is " + a);
+    }
+    static void Part14()
+    {
+        Random random = new Random();
+
+        int a = random.Next(1, 100);
+        Console.WriteLine("A random number between 1 and 100 is " + a);
+        
+    }
+    //public static void Main(string[] args)
+    //{
+    //    Part5();
+    //    //Part6();
+    //    //Part7();
+    //    //Part8();
+    //    //Part9();
+    //    //Part10();
+    //    //Part11();
+    //    //Part12();
+    //    //Part13();
+    //    //Part14();
+    //}
+    
 }

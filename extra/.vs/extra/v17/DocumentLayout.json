@@ -1,13 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Coding\\Practice extra\\extra\\",
+  "WorkspaceRootPath": "C:\\Unitylearn\\repos\\Practical-Extra\\extra\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{43FE393B-E0D6-42D6-B38F-AA4C37B1E963}|extra\\extra.csproj|d:\\coding\\practice extra\\extra\\extra\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{43FE393B-E0D6-42D6-B38F-AA4C37B1E963}|extra\\extra.csproj|c:\\unitylearn\\repos\\practical-extra\\extra\\extra\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{43FE393B-E0D6-42D6-B38F-AA4C37B1E963}|extra\\extra.csproj|solutionrelative:extra\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Fork\\C-Sharp-Practice-Optional\\DD Programming\\DD Programming_Q1_Try_Catch\\DD Programming_Q1_Try_Catch\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,53 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Coding\\Practice extra\\extra\\extra\\Program.cs",
+              "DocumentMoniker": "C:\\Unitylearn\\repos\\Practical-Extra\\extra\\extra\\Program.cs",
               "RelativeDocumentMoniker": "extra\\Program.cs",
-              "ToolTip": "D:\\Coding\\Practice extra\\extra\\extra\\Program.cs",
+              "ToolTip": "C:\\Unitylearn\\repos\\Practical-Extra\\extra\\extra\\Program.cs",
               "RelativeToolTip": "extra\\Program.cs",
-              "ViewState": "AgIAAIMBAAAAAAAAAAAqwJYBAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAO4BAAAAAAAAAAAAABMCAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-18T15:10:36.446Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "699fcacc-999a-4ffb-a75b-ed41e567af2d",
-        "Display": 0,
-        "X": 3,
-        "Y": 100,
-        "Width": 1193,
-        "Height": 741,
-        "WindowState": 2
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Fork\\C-Sharp-Practice-Optional\\DD Programming\\DD Programming_Q1_Try_Catch\\DD Programming_Q1_Try_Catch\\Program.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\Fork\\C-Sharp-Practice-Optional\\DD Programming\\DD Programming_Q1_Try_Catch\\DD Programming_Q1_Try_Catch\\Program.cs",
-              "ToolTip": "D:\\Fork\\C-Sharp-Practice-Optional\\DD Programming\\DD Programming_Q1_Try_Catch\\DD Programming_Q1_Try_Catch\\Program.cs",
-              "RelativeToolTip": "..\\..\\..\\Fork\\C-Sharp-Practice-Optional\\DD Programming\\DD Programming_Q1_Try_Catch\\DD Programming_Q1_Try_Catch\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-02T14:24:19.22Z",
               "EditorCaption": ""
             }
           ]
